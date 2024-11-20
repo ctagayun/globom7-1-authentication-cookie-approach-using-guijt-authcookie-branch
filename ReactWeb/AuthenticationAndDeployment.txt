@@ -1,0 +1,24 @@
+Module 7: Authentication and Deployment
+
+  - Deployment React Project
+      - https://app.pluralsight.com/ilx/video-courses/fbbac3b2-0e56-464b-92f2-0b877f92f12c/c2709893-6776-4589-bc6c-699eeb71d6a5/f2de7518-23c4-4576-8877-2169ea14ab86
+    
+      - first do a production build in React:
+            npm run buld --> creates "dist" folder
+    
+      - dist/index-Z8cH2rkp - contains all javscript files of entire application
+
+    
+
+  - Deployment API
+     https://app.pluralsight.com/ilx/video-courses/fbbac3b2-0e56-464b-92f2-0b877f92f12c/c2709893-6776-4589-bc6c-699eeb71d6a5/f2de7518-23c4-4576-8877-2169ea14ab86
+    
+     - do dotnet publish --> will create a Api/bin/Release. Contains many files,
+       take note of Api.dll, Api.exe, Api.pdb
+
+    - the ap can be started from .bin\release\net8.0
+        -  cd .\bin\Release\net8.0\
+        - dotnet api.dll
+        - dotnet api.exe can also be used to start the app
+
+  - Authentication
